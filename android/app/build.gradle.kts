@@ -12,13 +12,13 @@ plugins {
 
 android {
     namespace = "com.example.jflivre"
-    compileSdk = 35
-    ndkVersion = "27.0.12077973" // compatível com todos os plugins
+    compileSdk = 36 // ✅ atualizado para compatibilidade com geolocator e google_maps_flutter
+    ndkVersion = "27.0.12077973" // continua compatível
 
     defaultConfig {
         applicationId = "com.example.jflivre"
         minSdk = 23
-        targetSdk = 35
+        targetSdk = 36 // ✅ atualizado
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }
@@ -74,7 +74,7 @@ android {
 }
 
 dependencies {
-    // 🔹 Firebase com versões explícitas (FlutLab compatível)
+    // 🔹 Firebase com versões explícitas (FlutLab e Codemagic compatíveis)
     implementation("com.google.firebase:firebase-auth-ktx:22.3.0")
     implementation("com.google.firebase:firebase-firestore-ktx:24.9.3")
     implementation("com.google.firebase:firebase-analytics-ktx:21.5.0")
