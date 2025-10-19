@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "419167703891",
+    "project_id": "jflivre-c046e",
+    "storage_bucket": "jflivre-c046e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419167703891:android:1517917c8c64cb02cf07a6",
+        "android_client_info": {
+          "package_name": "com.example.jflivre"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDujHHeQFOUKfxVzjJnkyUMZdq89SAWRLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
